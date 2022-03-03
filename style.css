@@ -22,7 +22,7 @@
 .nav-link{
     color: black;
     font-size: 1rem;
-    font-weight: 700;
+    /* font-weight: 700; */
     cursor: pointer;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@
 
 body {
     /* background: linear-gradient(0deg, #F7F7F7, #F7F7F7); */
-    background-color: #FEFDFC;
+    /* background-color: #FEFDFC; */
 }
 
 /* p {
@@ -44,12 +44,41 @@ body {
 
 /*MAIN*/
 .main {
-    background: url(./img/blue.png)no-repeat;
     width: 100%;
     height: 100vh;
+    /* border: 5px solid red; */
 }
 
-.main h1 {
+.main h1{
     font-size: 5.4rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
- 
+
+.main .divrow {
+    /* border: 3px solid green; */
+}
+
+.main .divcol {
+    /* border: 3px solid blue; */
+}
+
+.main .img-profile {
+    /* border: 3px solid black; */
+    background: url(./img/undraw.png)no-repeat;
+    background-size: contain;
+}
+
+/* .skillchart {
+    border: green 5px solid;
+}
+
+.skillchart-col1 {
+    border: red 2px solid;
+}
+
+.skillchart-col2 {
+    border: blue 2px solid;
+} */
+
+
+/*https://undraw.co/illustrations*/
