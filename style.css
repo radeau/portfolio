@@ -52,11 +52,6 @@ body {
     /* background-color: #FEFDFC; */
 }
 
-/* p {
-    font-family: 'Space Mono', monospace;
-} */
-
-
 /*MAIN*/
 .main {
     width: 100%;
@@ -95,22 +90,10 @@ body {
     border: blue 2px solid;
 } */
 
-
 /*https://undraw.co/illustrations*/
-
 
 /*Projects Section*/
 #projects {
     width: 100%;
     height: 100vh;
-}
-#projects .divrow {
-    border: 3px solid green;
-}
-
-#projects .divcol {
-    border: 3px solid blue;
-    background: url(./img/blue.png)no-repeat;
-    background-size: contain;
-    background-position: center;
 }
