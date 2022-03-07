@@ -53,15 +53,7 @@
 .main h1{
     font-size: 3.5rem;
     font-family: 'Roboto', sans-serif;}
-
-.main .divrow {
-    /* border: 5px solid green; */
-}
-
-.main .divcol {
-    /* border: 1px solid blue; */
-}
-
+ 
 .main .img-profile {
     /* border: 1px solid yellow; */
     background: url(./img/undraw.png)no-repeat;
