@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, #FEFEFA 0%, #EFEFEB 100%);
+  background: linear-gradient(to bottom, #FEFEFA 30%, #DDDDD4 160%);
 }
 
 @layer utilities {

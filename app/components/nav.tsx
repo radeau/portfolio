@@ -9,15 +9,18 @@ const navItems = {
     },
     '/blog': {
         name: 'Blog',
-    },
+    }, 
+    '/resume': {
+        name: 'Resume',
+    }
 };
 
 export function Navbar() {
     return (
-        <aside className="-ml-[8px] mb-12 tracking-tight">
+        <aside className="mb-12 tracking-tight">
             <div className="lg:sticky lg:top-20">
                 <nav className="flex flex-row justify-center relative  fade md:overflow-auto scroll-pr-6 md:relative rounded-xl py-4 shadow-xl">
-                    <div className="flex flex-row">
+                    <div className="flex flex-row h-6">
                         {Object.entries(navItems).map(([path, { name }]) => {
                             return (
                                 <Link 
